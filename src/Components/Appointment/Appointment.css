@@ -1,0 +1,84 @@
+.appointment-container {
+    /* background-color: #0F1623; */
+    background-image: url(http://izee.ro/market/mywall/one-plus/img/bg_head_3.png);
+
+    color: #333;
+    /* border-radius: 10px; */
+    width: 410px;
+    /* max-width: 500px; */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* margin: 30px auto; */
+    text-align: center;
+    border-top: 2px solid #0cd2A4;
+    height: 80vh;
+
+    /* border: 2px solid white ; */
+  }
+  
+  .app {
+    color: #0cd2A4;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .calendar-container {
+    margin-bottom: 20px;
+  }
+  
+  .calendar {
+    color: black;
+    width: 80%;
+    border: 2px solid #0a74da;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .calendar:focus {
+    border-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .slots-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .time-slot {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, border-color 0.3s;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .time-slot:hover {
+    background-color: #e7f1ff;
+    border-color: #0a74da;
+    transform: scale(1.05);
+  }
+  
+  .time-slot.selected {
+    background-color: #0a74da;
+    color: #fff;
+    border-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .time-slot.selected:hover {
+    background-color: #0056b3;
+    border-color: #00409a;
+  }
+  

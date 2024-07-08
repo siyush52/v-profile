@@ -1,0 +1,123 @@
+.contact-containerr {
+  background-color: #0F1623;
+  color: #fff;
+  padding: 40px 20px;
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 410px;
+  /* margin: 40px auto; */
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-top: 2px solid #0cd2A4;
+
+}
+
+.h{
+  color: #0cd2A4;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.contact-infoo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.contact-item p {
+  margin: 0;
+}
+
+.form-container {
+  background: #1b2a38;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  opacity: 0.9;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.form-container:hover {
+  opacity: 1;
+  transform: scale(1.02);
+}
+
+h2 {
+  color: #0cd2A4;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #0cd2A4;
+  background: #0F1623;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  transition: border-bottom 0.3s, box-shadow 0.3s;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #b0b0b0;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid #0cd2A4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  background-color: #0cd2A4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #08b090;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #06a47f;
+}
